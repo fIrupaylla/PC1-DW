@@ -1,10 +1,19 @@
 html {
-    scroll-behavior: smooth; /* Activar el scroll suave para toda la página */
+    scroll-behavior: smooth; 
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f8ff;
     margin: 0;
+}
+
+h1 {
+    font-size: 45px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    color: #000064; /* Color del texto */
+    margin-bottom: 10px; /* Margen inferior */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Otros estilos que desees agregar */
 }
 
 header, header * {
@@ -31,6 +40,8 @@ header, header * {
     padding: 0; 
     margin: 0; 
     text-align: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu li {
@@ -52,4 +63,145 @@ footer {
     color: white; 
     text-align: center; 
     padding: 20px 0; 
+}
+main {
+    margin-top: 0px; /* Ajusta este valor según la altura del encabezado */
+    margin-left: 20px;
+}
+.image-container {
+    width: 100%; /* O cualquier otro valor deseado */
+    margin-left: 0px; /* Esto centrará horizontalmente el contenedor */
+    margin-top: 213px; 
+}
+.entry {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.entry h2 {
+    margin-top: 0;
+    color: #000064; /* Azul */
+}
+
+.entry p {
+    margin: 0;
+    color: #555; /* Azul claro */
+}
+
+.label {
+    font-weight: bold;
+    color: #000064; /* Azul */
+}
+.calendario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.calendario th, .calendario td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.calendario th {
+    background-color: #f00;
+    color: white;
+}
+
+.calendario tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.calendario tbody tr:hover {
+    background-color: #ddd;
+}
+
+container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.estadios {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.estadios li {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.estadios li img {
+    width: 200px;
+    height: auto;
+}
+
+.estadios li .info {
+    padding: 20px;
+}
+
+.estadios li h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.estadios li p {
+    margin-bottom: 0;
+    color: #666;
+}
+p {
+    text-align: justify;
+    line-height: 2;
+}
+/* Estilo personalizado para el contenedor del plugin de incrustación */
+.fb-post {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo personalizado para el título del plugin de incrustación */
+.fb-post h4 {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Estilo personalizado para el texto del plugin de incrustación */
+.fb-post p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Estilo personalizado para los enlaces del plugin de incrustación */
+.fb-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilo personalizado para los enlaces cuando están en estado hover */
+.fb-post a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ff0000; /* Fondo rojo */
+    color: #ffffff; /* Letras blancas */
+    height: 100px; /* Altura de 400px */
+    padding: 20px; /* Espaciado interior */
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
 }
